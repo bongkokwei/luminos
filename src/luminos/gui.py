@@ -56,8 +56,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtGui import QFont
 
-from luminos_stage import LuminosStage
-
+from .luminos_stage import LuminosStage
 
 # ---------------------------------------------------------------------------
 # Helpers
