@@ -104,7 +104,7 @@ with LuminosStage(
 ### Running the GUI
 
 ```bash
-python -m luminos_gui
+python src/luminos/gui.py
 ```
 
 Alternatively from Python:
