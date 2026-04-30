@@ -578,6 +578,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Luminos Stage Controller")
         self.resize(1050, 620)
+        self.setMaximumHeight(200)
 
         self._status = QStatusBar()
         self.setStatusBar(self._status)
