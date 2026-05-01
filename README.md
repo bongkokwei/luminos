@@ -104,13 +104,13 @@ with LuminosStage(
 ### Running the GUI
 
 ```bash
-python src/luminos/gui.py
+python -m src.luminos.gui
 ```
 
 Alternatively from Python:
 
 ```python
-from luminos_gui import main
+from luminos.gui import main
 main()
 ```
 
